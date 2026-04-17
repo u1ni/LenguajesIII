@@ -1,0 +1,36 @@
+body {
+    background: #eef2f7;
+    min-height: 100vh;
+}
+
+.form-card {
+    max-width: 450px; /* ancho de la tarjeta */
+    margin: 2rem auto; /* margen de arriba de la tarjeta */
+    border: 1px solid #dee2e6; /* borde */
+}
+
+.form-title {
+    font-weight: 700;
+    font-size: 1.5rem; /* titulo un poco más chico */
+}
+
+.invalid-feedback {
+    display: block;
+    font-size: 0.8rem; /* tamaño de letra del error */
+}
+
+.btn-primary {
+    background-color: #2553a1;
+    border-color: #1f4b8a;
+}
+
+.btn-primary:hover {
+    background-color: #1f4177;
+    border-color: #1a3d6b;
+}
+
+.form-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #444;
+}

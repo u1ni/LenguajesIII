@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica teoria de dom js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Prácticas de JavaScript</h1>
+
+    <div class="contenedor-seccion">
+        <h2>Parte 1: Arrays (Ver en Consola)</h2>
+        <button id="btn-ejecutar-arrays" class="btn-primario">Ejecutar Pruebas de Arrays</button>
+    </div>
+
+    <div class="contenedor-seccion">
+        <h2>Parte 2: Manipulación del DOM</h2>
+
+        <div class="ejercicio">
+            <h3>1. Lista dinámica</h3>
+            <button id="btn-lista">Mostrar lista de nombres</button>
+            <ul id="lista-nombres"></ul>
+        </div>
+
+        <div class="ejercicio">
+            <h3>2. Modificar contenido por ID</h3>
+            <p id="texto-objetivo">Texto original hola hola 123 123 123 123</p>
+            <button id="btn-modificar-texto">Cambiar Texto</button>
+        </div>
+
+        <div class="ejercicio">
+            <h3>3. Agregar/Quitar Clases (Toggle)</h3>
+            <div id="caja-interactiva" class="caja-base">
+                click para activar
+            </div>
+        </div>
+
+        <div class="ejercicio">
+            <h3>4. Formulario dinámico</h3>
+            <form id="formulario-datos">
+                <input type="text" id="input-nuevo-dato" placeholder="Escribí algo...">
+                <button type="submit">Guardar</button>
+            </form>
+            <p>Array en memoria: <span id="salida-array">[]</span></p>
+        </div>
+
+        <div class="ejercicio">
+            <h3>5. Tarjetas de Productos</h3>
+            <button id="btn-generar-tarjetas">Cargar Catálogo</button>
+            <div id="contenedor-tarjetas"></div>
+        </div>
+
+    </div>
+
+    <script src="ejs.js"></script>
+</body>
+</html>
