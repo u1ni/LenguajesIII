@@ -1,0 +1,15 @@
+#titulo {
+    transition: color 0.3s ease, transform 0.3s ease; /* animacion */
+    cursor: default;
+    color: #2c3e50;
+}
+
+.input-focus-custom {
+    box-shadow: 0 0 10px rgba(13, 110, 253, 0.4) !important; /* efecto del input */
+    border-color: #0d6efd !important;
+    transition: all 0.3s ease;
+}
+
+.btn-tabla {
+    margin-right: 6px; /* margen de separacion en la tabla */
+}
