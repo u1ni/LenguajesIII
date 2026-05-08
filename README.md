@@ -11,4 +11,4 @@ Actividades teoricas
 - teoria-clase7-fetch fetch uso de api personajes rick y morty
 
 Actividades evaluativas
-- 1coloquiio primer coloquio uso de dom y html [verificar si numero es par, dar su doble y su factorial]
+- 1coloquio primer coloquio uso de dom y html [verificar si numero es par, dar su doble y su factorial]
