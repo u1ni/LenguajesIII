@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coloquio: Funciones Simples</title>
+    
+    <!-- para mas prolijidad dentro del codigo, separo el css en un archivo a parte -->
+     <!-- tambien cada tipo de archivo en una carpeta separada para manejar control y prolijidad -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Coloquio: JavaScript, Funciones y DOM</h1>
+        
+        <div class="controles">
+            <label for="numeroInput">Ingrese un número: </label>
+            <input type="number" id="numeroInput"> <!-- type number para que solo se ingresen numeros -->
+            
+            <button id="btnDoble">Doble</button>  <!-- el doble del número ingresado -->
+            <button id="btnFactorial">Factorial</button> <!-- factorial del número ingresado -->
+            <button id="btnPrimo">Es Primo?</button> <!-- Comprobar si el número ingresado es primo o no -->
+        </div>
+
+        <div id="resultado"></div>
+    </div>
+
+    <!-- vinculacion del js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
