@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick y Morty - Buscador de personajes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-light">
+    
+    <div class="container py-5">
+        <h1 id="titulo" class="text-center mb-5 fw-bold">Rick y Morty - Personajes</h1>
+        
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-6">
+                <div class="input-group shadow-sm">
+                    <input type="text" id="inputBusqueda" class="form-control" placeholder="Buscá por nombre o ID (ej: 1 o Rick)...">
+                    <button class="btn btn-primary px-4" id="btnBuscar">Buscar</button>
+                </div>
+                <div id="errorBusqueda" class="text-danger small mt-2 d-none text-center">No se encontró ningún personaje con esos datos.</div>
+            </div>
+        </div>
+
+        <div class="row g-4" id="contenedor-personajes">
+            </div>
+
+        <nav class="mt-5">
+            <ul class="pagination justify-content-center align-items-center" id="paginacion">
+                <li class="page-item">
+                    <button class="btn btn-outline-primary mx-1 d-none" id="btnAnterior">Anterior</button>
+                </li>
+                
+                <li class="page-item d-flex align-items-center mx-2 text-muted fw-bold">
+                    Página 
+                    <select id="selectPagina" class="form-select form-select-sm mx-2 shadow-sm" style="width: auto; cursor: pointer;">
+                        </select> 
+                    de <span id="totalPaginas" class="ms-1"></span>
+                </li>
+
+                <li class="page-item">
+                    <button class="btn btn-outline-primary mx-1" id="btnSiguiente">Siguiente</button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

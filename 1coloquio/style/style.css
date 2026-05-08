@@ -1,0 +1,29 @@
+body {
+    margin: 20px; /* tamaño fuente */
+}
+
+.container {
+    max-width: 600px; /* ancho del container */
+}
+
+h1 {
+    font-size: 26px; /* tamaño fuente EN h1 */
+}
+
+.controles {
+    margin-bottom: 15px; /* margen inferior añade espacio por debajo */
+    display: flex; /* flexbox */
+    align-items: center; /* alineacion de los elementos al centro */
+    gap: 10px; /* espacio entre cada elemento */
+
+    /*gap es para elementos y el margin es para añadir espacio arriba o abajo para que las cosas no queden juntas*/
+}
+
+/* div (html) resultados */
+#resultado {
+    border-top: 1px solid black; /* linea negra separatoria superior */
+    border-bottom: 1px solid black; /* linea negra separatoria inferior */
+    padding: 10px 0; /* añade espacio entre las lineas asi el contenido no esta pegado a ellas y esta mas prolijo */
+    font-size: 18px; /* tamaño de la fuente */
+    min-height: 25px; /* Altura mínima para que la línea no desaparezca si está vacío */
+}
