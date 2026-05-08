@@ -134,9 +134,7 @@ function manejarBusqueda() {
     }
 }
 
-// ==========================================
-// LISTENERS (Eventos)
-// ==========================================
+//eventos
 
 btnBuscar.addEventListener('click', manejarBusqueda);
 inputBusqueda.addEventListener('keypress', (e) => {
@@ -157,13 +155,13 @@ btnAnterior.addEventListener('click', () => {
     }
 });
 
-// NUEVO: Evento para detectar cuando el usuario cambia la página desde el desplegable
+// cuando el usuario quiere ingresar una pagina en especifico
 selectPagina.addEventListener('change', function(e) {
-    // Tomamos el valor que el usuario eligió y lo convertimos a número
+    // Tpasar a numero
     paginaActual = parseInt(e.target.value); 
     cargarPersonajes(paginaActual, busquedaActiva);
-    window.scrollTo({ top: 0, behavior: 'smooth' }); // Scrolleo hacia arriba
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // scrollea para arriba
 });
 
-// Carga inicial
+// carga de personajes sin necesidad de hacer click en un boton para llamar a la api
 cargarPersonajes();
