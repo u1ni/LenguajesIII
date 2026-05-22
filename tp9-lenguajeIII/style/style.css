@@ -1,0 +1,38 @@
+/* estilos de las cajitas de los juegos */
+
+.tarjuego {
+    border: 2px solid lightgray;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #FFF;
+    transition: 0.1s; /* animacion */
+}
+
+.tarjuego:hover {
+    background-color: #f9f9f9;
+}
+
+.tarjuego img {
+    width: 100%;
+
+    /* height: 110px; */
+
+    max-height: 115px; 
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* remarco azul para la caja del juego seleccionado */
+.seleccionado {
+    border: 4px solid blue !important;
+    background-color: #e0f0ff;
+
+}
+
+/* css unico para el manejo de error*/
+.manejoerror {
+    color: darkred;
+    font-size: 14px;
+    font-weight: 600;
+}
