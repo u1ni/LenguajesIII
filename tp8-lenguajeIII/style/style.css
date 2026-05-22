@@ -1,0 +1,11 @@
+body { 
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Colores de las notas */
+.badge-sobresaliente { background-color: #198754; } /* Verde */
+.badge-bueno         { background-color: #0d6efd; } /* Azul */
+.badge-regular       { background-color: #fd7e14; } /* Naranja */
+.badge-aprobado      { background-color: #ffc107; color: #000; } /* Amarillo con texto en negro */
+.badge-insuficiente  { background-color: #dc3545; } /* Rojo */
