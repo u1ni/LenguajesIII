@@ -1,0 +1,22 @@
+/*hago modularidad para que los errores no sean un tipo de error para cada uno error con .error y .exito lo correcto que seria el mensaje de exito*/
+
+.error {
+    color: rgb(209, 14, 14);
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.exito {
+    color:rgb(13, 194, 13);
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid rgb(13, 194, 13);
+    padding: 10px;
+    background-color: #f4f6f9;
+    border-radius: 5px;
+}
+/*estilo para los botones en general y se lea mejor la letra y esten todos en negrita*/
+.btn {
+    font-weight: bold;
+}
