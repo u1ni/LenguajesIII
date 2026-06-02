@@ -14,4 +14,4 @@ Actividades teoricas
 
 Actividades evaluativas
 - 1coloquio primer coloquio uso de dom y html [verificar si numero es par, dar su doble y su factorial] - Aprobado [✓]
-- 1parcial primer parcial Aplicando todo lo visto desde el tp1 al tp9 [similar al tp9 en cuanto funcionalidad] - Nota pendiente [ ]
+- 1parcial primer parcial Aplicandolo visto en el tp1 al tp9 [similar al tp9 en cuanto funcionalidad] - Aprobado [✓]
