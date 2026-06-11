@@ -7,6 +7,7 @@ Trabajos practicos de la materia LenguajeIII - primer semestre
 - tp7 Uso de api / fetch [api personajes rick y morty]
 - tp8 Actividad de repaso para el parcial [I]
 - tp9 Actividad de repaso para el parcial [II]
+- tp10 aplicando todo lo que vimos en el transcurso de la cusada, menos api [formulario, validaciones, css, js. Como el parcial pero mas extenso]
 
 Actividades teoricas
 - teoria-practica/dom dom y console.log()
